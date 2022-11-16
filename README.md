@@ -17,7 +17,7 @@ See [packages/xmldom-decorators-cli](packages/xmldom-decorators-cli)
 First check out the source code and bootstrap the monorepo build environment:
 
 ```bash
-git clone https://github.com/andersnm/xmldom-decorators.git
+git clone https://github.com/neumaennl/xmldom-decorators.git
 cd xmldom-decorators
 npm install   # installs blerf in the root project
 ```

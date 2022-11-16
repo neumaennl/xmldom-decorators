@@ -1,14 +1,16 @@
 {
-  "name": "xmldom-decorators-cli",
-  "private": true,
+  "name": "@neumaennl/xmldom-decorators-cli",
   "version": "1.0.3",
   "description": "Command line tool to convert XSD to TypeScript classes using xmldom-decorators",
   "author": "andersnm",
   "license": "MIT",
-  "homepage": "https://github.com/andersnm/xmldom-decorators",
+  "homepage": "https://github.com/neumaennl/xmldom-decorators",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andersnm/xmldom-decorators.git"
+    "url": "https://github.com/neumaennl/xmldom-decorators.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -26,7 +28,7 @@
     "typescript": "^3.3.1"
   },
   "dependencies": {
-    "xmldom-decorators": "file:../../artifacts/build/xmldom-decorators.tgz"
+    "@neumaennl/xmldom-decorators": "file:../../artifacts/build/neumaennl-xmldom-decorators.tgz"
   },
   "blerf": {
     "steps": [

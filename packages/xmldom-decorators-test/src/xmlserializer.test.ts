@@ -1,6 +1,6 @@
-import { XMLRoot, XMLElement, XMLAttribute, XMLArray, XMLText } from 'xmldom-decorators';
-import { XMLDecoratorSerializer, SerializerContext } from 'xmldom-decorators';
-import { XMLDecoratorDeserializer, DeserializerContext } from 'xmldom-decorators';
+import { XMLRoot, XMLElement, XMLAttribute, XMLArray, XMLText } from '@neumaennl/xmldom-decorators';
+import { XMLDecoratorSerializer, SerializerContext } from '@neumaennl/xmldom-decorators';
+import { XMLDecoratorDeserializer, DeserializerContext } from '@neumaennl/xmldom-decorators';
 import { Test, Expect, TestFixture, IgnoreTest } from "alsatian";
 
 const expect = Expect;

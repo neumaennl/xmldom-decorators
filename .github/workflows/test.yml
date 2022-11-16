@@ -24,5 +24,17 @@ jobs:
           ${{ runner.os }}-
     - name: Install dependencies
       run: npm install
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Test
       run: npm run test
+    - name: Package
+      run: npm run pack
+    - name: Publish xmldom-decorators
+      run: npm publish artifacts/publish/neumaennl-xmldom-decorators-1.0.3.tgz
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish xmldom-decorators-cli
+      run: npm publish artifacts/publish/neumaennl-xmldom-decorators-cli-1.0.3.tgz
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
