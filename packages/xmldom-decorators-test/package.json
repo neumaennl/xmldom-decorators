@@ -21,7 +21,7 @@
   "devDependencies": {
     "@types/node": "^10.12.7",
     "typescript": "^3.3.1",
-    "alsatian": "2.4.0"
+    "alsatian": "3.2.1"
   },
   "dependencies": {
     "@neumaennl/xmldom-decorators": "file:../../artifacts/build/neumaennl-xmldom-decorators.tgz",
