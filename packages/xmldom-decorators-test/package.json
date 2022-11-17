@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^10.12.7",
-    "typescript": "^3.3.1",
+    "typescript": "^4.9.3",
     "alsatian": "2.4.0"
   },
   "dependencies": {
