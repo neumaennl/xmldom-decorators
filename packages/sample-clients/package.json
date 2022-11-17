@@ -33,7 +33,7 @@
     "@neumaennl/xmldom-decorators-cli": "file:../../artifacts/build/neumaennl-xmldom-decorators-cli.tgz"
   },
   "dependencies": {
-    "node-fetch": "3.2.10",
+    "node-fetch": "3.3.0",
     "@neumaennl/xmldom-decorators": "file:../../artifacts/build/neumaennl-xmldom-decorators.tgz"
   },
   "blerf": {
