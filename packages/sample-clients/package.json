@@ -27,7 +27,7 @@
     "url": "https://github.com/andersnm/xmldom-decorators/issues"
   },
   "devDependencies": {
-    "@types/node": "^10.12.7",
+    "@types/node": "^18.11.18",
     "@types/node-fetch": "^2.1.6",
     "typescript": "^3.3.1",
     "@neumaennl/xmldom-decorators-cli": "file:../../artifacts/build/neumaennl-xmldom-decorators-cli.tgz"
