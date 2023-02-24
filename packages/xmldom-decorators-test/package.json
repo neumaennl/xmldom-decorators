@@ -19,7 +19,7 @@
     "test": "alsatian lib/*.test.js"
   },
   "devDependencies": {
-    "@types/node": "^10.12.7",
+    "@types/node": "^18.14.1",
     "typescript": "^3.3.1",
     "alsatian": "2.4.0"
   },
